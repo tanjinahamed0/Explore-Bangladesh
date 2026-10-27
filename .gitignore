@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Wikimedia Commons image-research scratch (downloaded originals, contact sheets, candidate dumps)
+# The selected photos live in public/images; attribution for each one is recorded in IMAGE_SOURCES.md.
+.image-*
+.noakhali-*
